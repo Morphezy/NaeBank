@@ -1,0 +1,27 @@
+` azsw2ws<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="src\Services\IdentityService\IdentityService.API\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="src\Services\IdentityService\IdentityService.API\appsettings.json" />
+    <_ContentIncludedByDefault Remove="src\Services\IdentityService\IdentityService.API\obj\IdentityService.API.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="src\Services\IdentityService\IdentityService.API\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="src\Services\IdentityService\IdentityService.API\Properties\launchSettings.json" />
+    <_ContentIncludedByDefault Remove="src\Services\IdentityService\IdentityService.Application\obj\IdentityService.Application.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="src\Services\IdentityService\IdentityService.Application\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="src\Services\IdentityService\IdentityService.Domain\obj\IdentityService.Domain.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="src\Services\IdentityService\IdentityService.Domain\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="src\Services\IdentityService\IdentityService.Infrastructure\obj\IdentityService.Infrastructure.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="src\Services\IdentityService\IdentityService.Infrastructure\obj\project.assets.json" />
+  </ItemGroup>
+
+</Project>
